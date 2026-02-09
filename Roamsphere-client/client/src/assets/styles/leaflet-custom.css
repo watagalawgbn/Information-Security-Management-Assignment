@@ -1,0 +1,47 @@
+/* Custom marker styles */
+.custom-location-marker {
+  background: transparent !important;
+  border: none !important;
+}
+
+/* Leaflet popup customization */
+.leaflet-popup-content-wrapper {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.leaflet-popup-content {
+  margin: 12px 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Leaflet control customization */
+.leaflet-control-zoom {
+  border: none !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15) !important;
+}
+
+.leaflet-control-zoom a {
+  border-radius: 4px !important;
+  border: none !important;
+  color: #333 !important;
+  font-weight: bold !important;
+}
+
+.leaflet-control-zoom a:hover {
+  background-color: #FDCB42 !important;
+  color: #000 !important;
+}
+
+/* Custom attribution */
+.leaflet-control-attribution {
+  background: rgba(255, 255, 255, 0.8) !important;
+  font-size: 10px !important;
+}
+
+/* Scale control */
+.leaflet-control-scale {
+  background: rgba(255, 255, 255, 0.8) !important;
+  border-radius: 4px !important;
+  padding: 4px 8px !important;
+}
